@@ -6,3 +6,9 @@ Made using:
   Using this keyboard on a windows computer together with "WinCompose" to get the unicode to work. 
 2. QMK Macro support https://beta.docs.qmk.fm/using-qmk/advanced-keycodes/feature_macros
   Used SEND_STRING to achieve formulas made for Word Equations
+
+Where to place different files in QMK structure:
+keymap.c -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
+config.h -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
+rules.mk -> qmk_firmware\keyboards\xd75
+process_unicodemap.c -> qmk_firmware\quantum\process_keycode
