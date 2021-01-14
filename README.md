@@ -8,6 +8,7 @@ Made using:
   Used SEND_STRING to achieve formulas made for Word Equations
 
 Where to place different files in QMK structure:
+
 keymap.c -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
 
 config.h -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
