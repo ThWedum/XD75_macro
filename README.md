@@ -9,6 +9,9 @@ Made using:
 
 Where to place different files in QMK structure:
 keymap.c -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
+
 config.h -> qmk_firmware\keyboards\xd75\keymaps\[KEYBOARD_NAME]
+
 rules.mk -> qmk_firmware\keyboards\xd75
+
 process_unicodemap.c -> qmk_firmware\quantum\process_keycode
